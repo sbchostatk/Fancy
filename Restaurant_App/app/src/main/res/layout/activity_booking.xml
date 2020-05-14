@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/b8"
+    tools:context="com.example.restaurant_app.Booking">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp">
+    <TextView
+        android:id="@+id/l_booking"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="TABLE BOOKING"
+        android:textAlignment="center"
+        android:textColor="#585858"
+        android:textSize="28dp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:text="Name"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:id="@+id/lb_name"
+        android:textSize="19sp"
+        android:layout_below="@+id/l_booking"
+        android:layout_alignParentStart="true"
+        android:textColor="#696969" />
+
+
+    <TextView
+        android:text="E-mail"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:id="@+id/lb_mail"
+        android:textColor="#696969"
+        android:layout_alignTop="@+id/editText4"
+        android:layout_alignParentStart="true"
+        android:textSize="19sp" />
+
+    <TextView
+        android:id="@+id/lb_phone"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_alignTop="@+id/editText5"
+        android:layout_alignParentStart="true"
+        android:text="Phone number"
+        android:textColor="#696969"
+        android:textSize="19sp" />
+
+    <TextView
+        android:id="@+id/lb_date"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/en_e"
+        android:layout_alignTop="@+id/editText7"
+        android:layout_alignParentStart="true"
+
+        android:text="Date"
+        android:textColor="#696969"
+        android:textSize="19sp" />
+
+    <TextView
+        android:text="Time"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:id="@+id/time"
+        android:textColor="#696969"
+        android:layout_alignTop="@+id/spinner"
+        android:layout_alignParentStart="true"
+        android:textSize="19sp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/editText6"
+        android:text="Number of persons"
+        android:textColor="#696969"
+        android:textSize="19sp" />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_alignTop="@+id/lb_name"
+        android:layout_toEndOf="@+id/lb_mail"
+        android:layout_marginStart="0dp"
+        android:id="@+id/editText3"
+        android:textColor="?android:attr/textColorAlertDialogListItem" />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:layout_below="@+id/editText3"
+        android:layout_alignStart="@+id/editText3"
+        android:layout_marginTop="16dp"
+        android:id="@+id/editText4"
+        android:textColor="?android:attr/colorForeground" />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:inputType="phone"
+        android:ems="10"
+        android:hint="+7(000)0000000"
+        android:layout_below="@+id/editText4"
+        android:layout_alignStart="@+id/editText4"
+        android:layout_marginTop="16dp"
+        android:id="@+id/editText5"
+        android:textColor="?android:attr/textColorPrimaryNoDisable" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/editText5"
+        android:layout_alignStart="@+id/editText5"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="DD.MM.YYYY"
+        android:inputType="date"
+        android:textColor="?android:attr/textColorPrimaryNoDisable" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="150dp"
+        android:layout_height="39dp"
+        android:layout_below="@+id/editText7"
+        android:layout_alignStart="@+id/editText7"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/spinner"
+        android:layout_alignStart="@+id/spinner"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:textColor="?android:attr/colorForeground" />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="190dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/l_booking"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginBottom="80dp"
+        android:text="Book now"
+        android:textAlignment="center"
+        android:textColor="#DCDCDC"
+        android:background="#848484"
+        android:textSize="20sp"
+        android:textStyle="normal" />
+</RelativeLayout>
+
+
+</ScrollView>

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="@drawable/b8"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.restaurant_app.Menu"
+    android:weightSum="1">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/lable_signup"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:text="MENU"
+                android:textAlignment="center"
+                android:textColor="#585858"
+                android:textSize="35dp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:text="Entrees"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView9"
+                android:textSize="30sp"
+                android:textStyle="normal|bold"
+                android:textAlignment="center"
+                android:fontFamily="cursive"
+                android:textColor="#000000" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView10"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:textSize="28sp"
+                android:text="Beef Tenderloin             $26"
+                android:textStyle="normal" />
+            <TextView
+                android:text="Seared Ahi Tuna            $25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView11"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:textSize="28sp"
+                android:textAlignment="viewStart"
+                android:textStyle="normal" />
+
+            <TextView
+                android:text="Prime Ribs                      $32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView12"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:textSize="28sp"
+                android:textAlignment="viewStart"
+                android:textStyle="normal" />
+
+            <TextView
+                android:text="Coho Salmon                 $25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/textView13"
+                android:textSize="28sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:text="Roast Duck                     $26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/textView20"
+                android:textSize="28sp"
+                android:textStyle="normal" />
+            <TextView
+                android:text="Oregon Trout                  $21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/textView21"
+                android:textSize="28sp"
+                android:textStyle="normal" />
+            <TextView
+                android:text="Veal Scalloppini             $26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/textView22"
+                android:textSize="28sp"
+                android:textStyle="normal" />
+            <TextView
+                android:text="Beef Ribs                         $40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/textView23"
+                android:textSize="28sp"
+                android:textStyle="normal" />
+            <TextView
+                android:text="Appetizers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:id="@+id/textView24"
+                android:textSize="30sp"
+                android:textStyle="normal|bold"
+                android:textAlignment="center"
+                android:fontFamily="cursive"
+                android:textColor="#000000" />
+            <TextView
+                android:text="Potato Skins                   $30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/textView25"
+                android:textSize="28sp"
+                android:textStyle="normal" />
+            <TextView
+                android:text="Chili Meatballs               $19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/textView26"
+                android:textSize="28sp"
+                android:textStyle="normal"/>
+            <TextView
+                android:text="Savory Party Bread        $17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/textView27"
+                android:textSize="28sp"
+                android:textStyle="normal"/>
+            <TextView
+                android:text="Scotch Egg                      $11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/textView28"
+                android:textSize="28sp"
+                android:textStyle="normal"/>
+            <TextView
+                android:text="Seasonal Soup               $21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/textView29"
+                android:textSize="28sp"
+                android:textStyle="normal"/>
+            <TextView
+                android:text="Desserts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:id="@+id/textView14"
+                android:textSize="30sp"
+                android:textStyle="normal|bold"
+                android:textAlignment="center"
+                android:fontFamily="cursive"
+                android:textColor="#000000" />
+            <TextView
+                android:text="Cheesecake                    $17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/textView15"
+                android:textSize="28sp"
+                android:textStyle="normal"/>
+
+            <TextView
+                android:text="Boston Cream Pie         $15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/textView16"
+                android:textSize="28sp"
+                android:textStyle="normal"/>
+            <TextView
+                android:text="Banana Cake                  $14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/textView17"
+                android:textSize="28sp"
+                android:textStyle="normal"/>
+            <TextView
+                android:text="Pistachio Pudding         $12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/textView18"
+                android:textSize="28sp"
+                android:textStyle="normal"/>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

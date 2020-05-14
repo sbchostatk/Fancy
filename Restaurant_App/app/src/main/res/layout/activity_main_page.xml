@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main3"
+    android:background="@drawable/bg6"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.restaurant_app.Main_Page">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:weightSum="1">
+
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:fontFamily="cursive"
+            android:text="Fancy"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="100sp" />
+
+        <Button
+            android:text="Profile"
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:id="@+id/button2"
+            android:textStyle="normal"
+            android:textSize="18sp"
+            android:textColor="#664967"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/name"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:background="#acafc0"/>
+
+        <Button
+        android:text="RESERVE A TABLE"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="16dp"
+        android:id="@+id/button1"
+        android:textSize="18sp"
+        android:textColor="#664967"
+        android:textStyle="normal"
+        android:textAlignment="center"
+        android:layout_below="@+id/button2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:background="#acafc0" />
+
+        <Button
+            android:text="Restaurant Menu"
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:id="@+id/button4"
+            android:layout_marginTop="16dp"
+            android:textStyle="normal"
+            android:textSize="18sp"
+            android:textColor="#664967"
+            android:layout_below="@+id/button1"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:background="#acafc0" />
+
+    <Button
+        android:text="Information"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:id="@+id/button3"
+        android:textStyle="normal"
+        android:textSize="18sp"
+        android:textColor="#664967"
+        android:layout_below="@+id/button4"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="22dp"
+        android:layout_alignParentEnd="true"
+        android:background="#acafc0"/>
+
+        <TextView android:id="@+id/res"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:text="Your reservation"
+            android:clickable="true"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textStyle="normal|bold"
+            android:textColor="#585858"
+            android:focusable="true" />
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

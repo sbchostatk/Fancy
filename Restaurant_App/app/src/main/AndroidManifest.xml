@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.restaurant_app">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Fancy"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Reservations"></activity>
+        <activity android:name=".Edit_profile" />
+        <activity android:name=".Profile" />
+        <activity android:name=".Info" />
+        <activity android:name=".Loading">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Table" />
+        <activity android:name=".Menu" />
+        <activity
+            android:name=".Booking"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".Main_Page" />
+        <activity
+            android:name=".Sign_up"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".MainActivity"
+            android:windowSoftInputMode="stateHidden" />
+    </application>
+
+</manifest>

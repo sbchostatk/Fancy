@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b8">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="580dp"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp">
+    <TextView
+        android:id="@+id/lable_signup"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="EDIT PROFILE"
+        android:textAlignment="center"
+        android:textColor="#585858"
+        android:textSize="28dp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:text="Enter first name"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:id="@+id/lb_en"
+        android:textSize="19sp"
+        android:layout_below="@+id/lable_signup"
+        android:layout_alignParentStart="true"
+        android:textColor="#696969" />
+
+
+    <TextView
+        android:text="Enter last name"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:id="@+id/en_ln"
+        android:textColor="#696969"
+        android:layout_alignTop="@+id/editText4"
+        android:layout_alignParentStart="true"
+        android:textSize="19sp" />
+
+    <TextView
+        android:text="Enter e-mail"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:id="@+id/en_e"
+        android:textColor="#696969"
+        android:layout_alignBaseline="@+id/editText5"
+        android:layout_alignBottom="@+id/editText5"
+        android:layout_alignParentStart="true"
+        android:textSize="19sp" />
+
+    <TextView
+        android:text="Enter phone number"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:id="@+id/en_ph"
+        android:textColor="#696969"
+        android:layout_alignBaseline="@+id/editText7"
+        android:layout_alignBottom="@+id/editText7"
+        android:layout_alignParentStart="true"
+        android:textSize="19sp" />
+
+    <TextView
+        android:id="@+id/en_g"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/en_ln"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="23dp"
+        android:text="Choose gender"
+        android:textColor="#696969"
+        android:textSize="19sp" />
+
+    <TextView
+        android:text="Enter password"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:id="@+id/en_p"
+        android:textColor="#696969"
+        android:layout_alignBaseline="@+id/editText6"
+        android:layout_alignBottom="@+id/editText6"
+        android:layout_alignParentStart="true"
+        android:textSize="19sp"
+         />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_alignTop="@+id/lb_en"
+        android:layout_toEndOf="@+id/en_ln"
+        android:layout_marginStart="31dp"
+        android:id="@+id/editText3"
+        android:textColor="?android:attr/textColorAlertDialogListItem" />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/editText3"
+        android:layout_alignStart="@+id/editText3"
+        android:layout_marginTop="15dp"
+        android:id="@+id/editText4"
+        android:textColor="?android:attr/colorForeground" />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:layout_below="@+id/radio"
+        android:layout_alignStart="@+id/radio"
+        android:layout_marginTop="16dp"
+        android:id="@+id/editText5"
+        android:textColor="?android:attr/textColorPrimaryNoDisable" />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:inputType="phone"
+        android:ems="10"
+        android:hint="+7(000)0000000"
+        android:layout_below="@+id/editText5"
+        android:layout_alignStart="@+id/editText5"
+        android:layout_marginTop="16dp"
+        android:id="@+id/editText7"
+        android:textColor="?android:attr/textColorPrimaryNoDisable" />
+
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/editText7"
+        android:layout_alignStart="@+id/editText7"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textColor="?android:attr/colorForeground" />
+
+    <RadioGroup
+        android:id="@+id/radio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/en_g"
+        android:layout_alignEnd="@+id/button"
+        android:layout_marginEnd="-15dp">
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/en_g"
+            android:layout_alignBottom="@+id/en_g"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="33dp"
+            android:text="Male"
+            android:textColor="#696969" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="116dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/radioButton"
+            android:layout_alignStart="@+id/radioButton"
+            android:text="Female"
+            android:textColor="#696969" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/lable_signup"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="15dp"
+        android:text="SUBMIT"
+        android:textAlignment="center"
+        android:textColor="#DCDCDC"
+        android:background="#848484"
+        android:textSize="20sp"
+        android:textStyle="normal" />
+
+
+</RelativeLayout>
+
+</ScrollView>
